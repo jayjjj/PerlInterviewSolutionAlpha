@@ -3,7 +3,7 @@
 Last year, this company, Alpha(fake), started the interview process and sent me 2 problems to solve. I did submit my code but I failed the panel interview later. I was never good at it and this is somewhere I need to improve. Anyhow, I decided to put everything here to mark this experience.
 
 Here are the 2 problems:
-
+----------------------------
 1.  Write a Perl function that takes in a password and checks whether it's valid.  The password should follow the following rule:
 
     Passwords must be at least 8 characters long.
@@ -21,10 +21,10 @@ Here are the 2 problems:
     f("x+(y+z)+(t+((v+w)))") ===> "x+y+z+t+v+w"
 
 Please write a function that removes unnecessary parenthesis for any given string. You can write this in any language but please provide it in an executable format with instructions.
-
+-----------------
 I started to work on it during the weekend. Later that day, I was able to submit my code together with this email:
 
-...
+~~~
 I used Perl 5.8/5.14/5.20 at work. Today, I found out my old box didn't work anymore. I had to download Perl 5.28 from ActiveState for Windows. I was lucky to make it work.
 
 Not much to say on the first one, password verification. Actually, I do have to mention what I have in mind while I worked on the 2nd one:
@@ -38,18 +38,18 @@ I put on something in the comments on how I approach to resolve this problem. So
 I do not use captial letters as variable name. This time it is different since I noted it in the comments. Lazy to work on it more since I know the code will be discarded later.
 
 Anyhow, the code runs well under Win10 with ActivePerl. Let me know if you have problems.
-...
+~~~
 
 This is the feedback I got:
 
-...
+~~~
 For problem #1, can you see about solving this using lookahead regular expressions and see if you can get the solution to be more concise?
 For problem #2, you covered a lot of cases. Can you share the test cases that you used to verify your work?
 There is one small case where the parenthesis were not removed, see:
 Input: (5)/(6)
 Got: 5/(6)
 Expected: 5/6
-...
+~~~
 
 I promised to work on them again during the next weekend. Later, I attached my modified version with this email:
 
